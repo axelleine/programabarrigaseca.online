@@ -83,7 +83,7 @@
 <div id="primeira">
 <div class="question">
 <h1>PERGUNTA 1</h1>
-<p>Você está acima do peso e quer emagrecer rapidamente?</p>
+<p>Você está prestes a descobrir um grande segredo... Deseja continuar?</p>
 </div>
 <div class="answer">
 <button class="btn" onclick="segunda()">SIM</button>
@@ -93,16 +93,6 @@
 <div id="segunda" class="hide">
 <div class="question">
 <h1>PERGUNTA 2</h1>
-<p>Você quer descobrir o segredo para seu problema?</p>
-</div>
-<div class="answer">
-<button class="btn" onclick="terceira()">SIM</button>
-<button class="btn" onclick="terceira()">NÃO</button>
-</div>
-</div>
-<div id="terceira" class="hide">
-<div class="question">
-<h1>PERGUNTA 3</h1>
 <p>O vídeo a seguir tem um limite para pouquíssimas pessoas verem ao mesmo tempo... Você pretende ver até o fim?</p>
 </div>
 <div class="answer">
@@ -111,7 +101,7 @@
 </div>
 </div>
 </div>
-<p style="text-align: center; font-weight: bold; color: #777">Programa Barriga Seca © 2022 – Todos os direitos reservados. Este site não faz parte nem é endossado pelo Facebook. Facebook é uma marca comercial da Facebook, Inc.</p>
+<p style="text-align: center; font-weight: bold; color: #555">© 2022 – Todos os direitos reservados. Este site não faz parte nem é endossado pelo Facebook. Facebook é uma marca comercial da Facebook, Inc.</p>
 </div>
 <script>
     function segunda() {
@@ -120,7 +110,6 @@
     }
     function terceira() {
       document.getElementById("segunda").classList.add("hide")
-      document.getElementById("terceira").classList.remove("hide")
     }
     function redirect() {
       location.href = "https://programabarrigaseca.com/"
